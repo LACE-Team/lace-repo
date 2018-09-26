@@ -1,20 +1,24 @@
 /* eslint-disable */
-// eslint disbale to be removed once states added. 
+// eslint disbale to be removed once states added.
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route } from 'react-router-dom';
+// import compoenents
+import Navbar from './components/Navbar';
+import Landing from './components/Landing';
+// styling
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+      <BrowserRouter>
+        <div>
+        <Navbar />
+          <Route exact path="/" component={Landing} />
+        </div>
+      </BrowserRouter>
       </div>
     );
   }
