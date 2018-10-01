@@ -1,0 +1,69 @@
+//still working on an array to get each page, right now the scrape is hardcoded with Dougie.
+
+
+app.get('/scrape', (req, res) => {
+  axios.get('https://www.ola.org/en/members/all/doug-ford').then(response => {
+    const $ = cheerio.load(response.data);
+    const result = {};
+    result.name = $('.views-field-field-current-riding')
+      .find('h1')
+      .text();
+    const photo = $('.views-field-field-image')
+      .find('img')
+      .attr('src');
+    result.photo = `https://www.ola.org${photo}`;
+    result.party = $('.views-field-field-party').text();
+    result.dateOfService = $('.block-views-blockmember-block-6')
+      .find($('.view-content'))
+      .text()
+      .trim()
+      .replace(/(\n*)\n/g, '$1');
+    result.careerDetails = [];
+    const careerDetails = $('#block-views-block-member-member-role-history')
+      .find('.view-content')
+      .children();
+    for (let i = 0; i < careerDetails.length; i += 2) {
+      const parliamentNumber = $(careerDetails[i])
+        .text()
+        .replace(/\n/g, '');
+      const allPositions = $(careerDetails[i + 1]).find('.field-content');
+      const positions = [];
+      for (let j = 0; j < allPositions.length; j += 1) {
+        if (
+          $(allPositions[j])
+            .text()
+            .startsWith('Minister') ||
+          $(allPositions[j])
+            .text()
+            .startsWith('Premier') ||
+          $(allPositions[j])
+            .text()
+            .startsWith('Leader')
+        ) {
+          positions.push(
+            $(allPositions[j])
+              .text()
+              .replace(/[\r\n]+/g, '')
+          );
+        }
+      }
+      result.careerDetails.push({
+        parliamentNumber,
+        positions,
+      });
+    }
+    console.log(result.careerDetails);
+    result.currentRiding = $('.views-field-name').text();
+    result.ridingMap = $('.views-field-field-riding-map')
+      .find('a')
+      .attr('href');
+    db.eachMPP
+      .create(result)
+      .then(dbeachMPP => {
+        console.log(dbeachMPP);
+      })
+      .catch(err => res.json(err));
+  });
+  // Send a "Scrape Complete" message to the browser
+  res.send('Scrape Complete');
+});
