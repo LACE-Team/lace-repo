@@ -2,15 +2,12 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const mongojs = require('mongojs');
-const request = require('request');
-const cheerio = require('cheerio');
-const cheerioTableParser = require('cheerio-tableparser');
+const mongoose = require('mongoose');
+// const db = require('./database/models');
 
 // Initialize Express
 const app = express();
-const PORT = process.env.PORT || 3001;
-
+const PORT = process.env.PORT || 8080;
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -18,58 +15,39 @@ app.use(bodyParser.json());
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
+let billsRouter = express.Router();
+billsRouter = require('./database/scraping/Bills')(billsRouter);
 
-// Database configuration
-const databaseUrl = 'LACE';
-const collections = ['Bills'];
+let eachMPPRouter = express.Router();
+eachMPPRouter = require('./database/scraping/eachMPP')(eachMPPRouter);
 
-// Hook mongojs configuration to the db variable
-const db = mongojs(databaseUrl, collections);
-db.on('error', error => {
-  console.log('Database Error:', error);
-});
+let mppUrlRouter = express.Router();
+mppUrlRouter = require('./database/scraping/MPPurls')(mppUrlRouter);
 
-// Main route (simple Hello World Message)
-// app.get("/", (req, res) => {
-//   res.send("Hello world");
-// });
+let hansardRouter = express.Router();
+hansardRouter = require('./database/scraping/Hansard')(hansardRouter);
 
-// Send every other request to the React app
-// Define any API routes before this runs
-app.get('/scrape', (req, res) => {
-  request(
-    'https://www.ola.org/en/legislative-business/house-documents/parliament-42/session-1/2018-08-14/hansard#P402_92152',
-    (error, response, html) => {
-      const $ = cheerio.load(html);
-      cheerioTableParser($);
+app.use('/bills', billsRouter);
+app.use('/eachMPP', eachMPPRouter);
+app.use('/mppUrl', mppUrlRouter);
+app.use('/hansard', hansardRouter);
+mongoose.connect('mongodb://localhost/lace-repo');
 
-      $('.speakerStart').each((i, element) => {
-        const object = $(element).text();
+// database is called lace-repo, you can see from 'mongoose.connect' code above
+// Scraping steps:
+// **uncomment all the db files, sorry es6 compile issues (will ask Uzair)
+// 1) connect to your mongoDB
+// 2) yarn start (this is development start, uses nodemon)
+// 3) let React app load (loads on 3000)
+// 4) open a new tab in your browser
+// 5a) to scrape bills: type http://localhost:8080/bills/scrape in browser
+// 6) you'll get a "Scrape Complete" if things worked
+// 7) must scrape mppUrl before each MPP. To scrape mppurl: type http://localhost:8080/mppUrl/scrape in browser
+// 8) remidner, scrape mppUrl first. To scrape eachMPP: type http://localhost:8080/eachMPP/scrape in browser
+// 9) to scrape hansard: type http://localhost:8080/hansard/scrape in browser
+// 10) view collection in MongoDB in the lace-repo database
 
-        console.log(object);
-
-        // console.log(typeof object);
-        db.Hansard.insert(
-          {
-            object,
-          },
-          (err, inserted) => {
-            if (err) {
-              // Log the error if one is encountered during the query
-              console.log(inserted);
-              console.log(err);
-            }
-          }
-        );
-      });
-    }
-  );
-
-  // Send a "Scrape Complete" message to the browser
-  res.send('Scrape Complete');
-});
-
-app.get('*', (req, res) => {
+app.get('*', (_req, res) => {
   res.sendFile(path.join(__dirname, './client/build/index.html'));
 });
 
