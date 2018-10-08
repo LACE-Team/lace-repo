@@ -6,10 +6,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import SelectedDash from './components/SelectedDash';
-
 import UserDash from './components/UserDash';
 import fakeData from './fakedata';
-
 import Login from './components/Login';
 import Signup from './components/Signup';
 import listMPPS from './components/AllMPPS';
@@ -30,9 +28,8 @@ class App extends Component {
         <Navbar />
           <Route exact path="/" component={Landing} />
           <Route exact path="/test" component={SelectedDash} />
-
-          <Route exact path="/login" component={SelectedDash} />
-          <Route exact path="/signup" component={SelectedDash} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/signup" component={Signup} />
           <Route exact path="/user"
           render={(props) =>
             fakeData.map(follow => (
@@ -42,7 +39,6 @@ class App extends Component {
               )
             }
           />
-
         </div>
       </BrowserRouter>
       </div>

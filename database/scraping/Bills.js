@@ -3,8 +3,14 @@ const axios = require('axios');
 const cheerioTableParser = require('cheerio-tableparser');
 const mongoose = require('mongoose');
 const Bills = require('../models/Bills');
+const keys = require('../../config/keys');
 
-mongoose.connect('mongodb://localhost/lace-repo');
+// mongoose.connect('mongodb://localhost/lace-repo');
+
+mongoose.connect(
+  keys.mongoURI,
+  { useNewUrlParser: true }
+);
 
 const billsRouter = router => {
   router.get('/scrape', (req, res) => {

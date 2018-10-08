@@ -10,23 +10,23 @@ class SearchBar extends Component {
         // this.setState({
         //     searchValue: search
         // })
-       
+
     }
 
 
     render () {
         return (
             <div className="searchbar" style={{display: 'inline-flex'}}>
-                <input id="search" type="search" placeholder="search politicans"></input>
+                <input id="search" type="search" placeholder="search politicans" className="input-reset ba b--black-20  mb2 db w-100 gray f6 f5-ns dib "></input>
                 {/*  will be like youtube searchbar */}
-                <button onClick={this.Search}>
+                <button className=" mb2 mr3" onClick={this.Search}>
                     <i className="fa fa-search"></i>
                 </button>
             </div>
         )
     }
 }
-    
+
 
 
 export default SearchBar;

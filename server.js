@@ -1,9 +1,16 @@
 // Dependencies
 const express = require('express');
+const cookieSession = require('cookie-session');
+const passport = require('passport');
 const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 // const db = require('./database/models');
+const keys = require('./config/keys');
+require('./database/models/User');
+require('./services/passport');
+
+// End Of Dependencies
 
 // Initialize Express
 const app = express();
@@ -15,6 +22,26 @@ app.use(bodyParser.json());
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
+
+// the setup for passport to use the cookiesssss
+app.use(
+  cookieSession({
+    maxAge: 30 * 24 * 60 * 60 * 1000,
+    keys: [keys.cookieKey],
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
+
+// passport routes
+require('./routes/authRoutes')(app);
+
+mongoose.connect(
+  keys.mongoURI,
+  { useNewUrlParser: true }
+);
+// authRoutes(app);
+
 let billsRouter = express.Router();
 billsRouter = require('./database/scraping/Bills')(billsRouter);
 
@@ -31,7 +58,9 @@ app.use('/bills', billsRouter);
 app.use('/eachMPP', eachMPPRouter);
 app.use('/mppUrl', mppUrlRouter);
 app.use('/hansard', hansardRouter);
-mongoose.connect('mongodb://localhost/lace-repo');
+// mongoose.connect('mongodb://localhost/lace-repo');
+
+// connecting to mlab
 // database is called lace-repo, you can see from 'mongoose.connect' code above
 // Scraping steps:
 // **uncomment all the db files, sorry es6 compile issues (will ask Uzair)

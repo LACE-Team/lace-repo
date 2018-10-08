@@ -6,6 +6,7 @@ import TwitterFeed from './TwitterFeed';
 import FacebookFeed from './FacebookFeed';
 import './Landing.css';
 
+
 window.twttr = (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
@@ -22,6 +23,13 @@ window.twttr = (function(d, s, id) {
     return t;
 }(document, "script", "twitter-wjs"));
 
+const style = {
+    panelLayout:{
+        width: '50%',
+        border: "solid gray 2px"
+        // backgroundColor: 'orange'
+    }
+}
 
 // const Landing = () => <h1>Hello Landing! </h1>;
 class Landing extends Component {
@@ -72,17 +80,16 @@ class Landing extends Component {
                 </div>
                 <div className="postalCodeSearch" style={{marginTop: "0px", marginBottom: "0px", height: "150px", backgroundColor: 'blue'}}>
                     <h3>Not Sure who your MPP is?</h3>
-                    <input id="search" type="search" placeholder="search politicans"></input>
-                    <button>
-                        <i className="fa fa-search"></i>
-                    </button>
+                    <SearchBar />
                 </div>
                 <div className='' style={{width: '100%', display: '-webkit-box', height: '365px', marginBottom: '0px'}}>
-                    <div className='legislatureToday' style={{width: '50%', height: '100%',backgroundColor: 'red', }}>
+                    <div className='legislatureToday' style={ style.panelLayout}>
                         <h2>Legislature Today</h2>
+                        <div> [Content Here]</div>
                     </div>
-                    <div className="billsToday" style={{width: '50%', height: '100%', backgroundColor: 'orange'}}>
+                    <div className="billsToday" style={ style.panelLayout}>
                         <h2>Recent Bills</h2>
+                        <div> [Content Here]</div>
                     </div>
                 </div>
                 <Footer/>
