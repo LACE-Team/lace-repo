@@ -14,6 +14,7 @@ import listMPPS from './components/AllMPPS';
 
 // styling
 import './App.css';
+import SearchBar from './components/SearchBar';
 
 class App extends Component {
   state = {

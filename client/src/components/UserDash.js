@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+/* eslint-disable */
+import React from 'react';
 // import MppInfo from './dashComponents/Mppinfo';
-import userStyle from './userStyle.css';
+// import userStyle from './userStyle.css';
 
-const styles = {
+// const styles = {
   // layout:hover {
   //   color: blue
   // },
-};
+// };
 
 const UserDash = ({ item }) => (
   <main className="mw6 center">

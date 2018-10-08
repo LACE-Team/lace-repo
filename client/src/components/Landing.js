@@ -36,7 +36,8 @@ class Landing extends Component {
 
     state = {
         TwitterClass: '',
-        FacebookClass: 'notShown'
+        FacebookClass: 'notShown',
+        value: ''
     };
 
     FacebookButton = (e) => {

@@ -1,17 +1,17 @@
+/* eslint-disable */
 // Dependencies
+import seed from './database/seeds1/mppqueenparks';
+import array from './docs/larray_eachmpps';
+
 const express = require('express');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-// const db = require('./database/models');
-const keys = require('./config/keys');
-require('./database/models/User');
-require('./services/passport');
-
-// End Of Dependencies
-
+const eachMPP = require('./database/models/eachMPP');
+const hansard = require('./database/models/Hansard');
+const mppqueenparks = require('./database/models/mppQueenPark');
 // Initialize Express
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -45,8 +45,8 @@ mongoose.connect(
 let billsRouter = express.Router();
 billsRouter = require('./database/scraping/Bills')(billsRouter);
 
-let eachMPPRouter = express.Router();
-eachMPPRouter = require('./database/scraping/eachMPP')(eachMPPRouter);
+let eachmppRouter = express.Router();
+eachmppRouter = require('./database/scraping/eachMPP')(eachmppRouter);
 
 let mppUrlRouter = express.Router();
 mppUrlRouter = require('./database/scraping/MPPurls')(mppUrlRouter);
@@ -55,15 +55,82 @@ let hansardRouter = express.Router();
 hansardRouter = require('./database/scraping/Hansard')(hansardRouter);
 
 app.use('/bills', billsRouter);
-app.use('/eachMPP', eachMPPRouter);
+app.use('/eachmpp', eachmppRouter);
 app.use('/mppUrl', mppUrlRouter);
 app.use('/hansard', hansardRouter);
+app.use('/api/mppName/:name', (req, res) => {
+  eachMPP
+    .find({ $text: { $search: req.params.name } })
+    .then(dbModel => {
+      res.json(dbModel);
+      console.log(dbModel);
+    })
+    .catch(err => {
+      console.error(err);
+      res.status(422).json(err);
+    });
+});
+app.use('/api/hansard/:name', (req, res) => {
+  hansard
+    .find({ $text: { $search: 'ford' } })
+    .then(speech => {
+      res.json(speech);
+    })
+    .catch(err => {
+      console.error(err);
+      res.status(422).json(err);
+    });
+});
+
+const result = array.map(a => a.name);
+
+for (let m = 0; m < result.length; m += 1) {
+  const last = result[m].substring(result[m].lastIndexOf(' ') + 1);
+  
+}
+
+// mppqueenparks
+//   .find({ $text: { $search: 'anand' } })
+//   .then(dbmodel =>
+//     eachMPP.findOneAndUpdate(
+//       { $text: { $search: 'anand' } },
+//       { telephone: dbmodel[0]._id },
+//       { fields: 'telephone', new: true }
+//     )
+//   )
+//   .then(dbQp => {
+//     console.log(dbQp);
+//   })
+//   .catch(err => {
+//     console.log(err);
+//   });
+
+// mppqueenparks
+//   .create(seed)
+//   .then(dbLibrary => {
+//     console.log(dbLibrary);
+//   })
+//   .catch(err => {
+//     console.log(err.message);
+//   });
+
+mppqueenparks
+  .find({ $text: { $search: 'smith' } })
+  .then(dbLibrary => {
+    console.log(dbLibrary);
+  })
+  .catch(err => {
+    console.log(err.message);
+  });
+
+mongoose.connect('mongodb://localhost/lace-repo');
+
 // mongoose.connect('mongodb://localhost/lace-repo');
 
 // connecting to mlab
 // database is called lace-repo, you can see from 'mongoose.connect' code above
 // Scraping steps:
-// **uncomment all the db files, sorry es6 compile issues (will ask Uzair)
+
 // 1) connect to your mongoDB
 // 2) yarn start (this is development start, uses nodemon)
 // 3) let React app load (loads on 3000)

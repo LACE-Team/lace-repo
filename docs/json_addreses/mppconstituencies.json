@@ -1,0 +1,1875 @@
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e7d"),  
+    "Honorific" : null, 
+    "Name" : "Anand  Deepak", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 203", 
+    "Street" : "7045 Edwards Boulevard", 
+    "City" : "Mississauga", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L5S 1X2", 
+    "Email Address" : "deepak.anandco@pc.ola.org", 
+    "Telephone" : "Tel:  905-696-0367", 
+    "Fax" : "Fax:  905-696-7545"
+}
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e74"), 
+    "Honorific" : null, 
+    "Name" : "Armstrong  Teresa", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "155 Clarke Road", 
+    "City" : "London", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N5W 5C9", 
+    "Email Address" : "tarmstrong-co@ndp.on.ca", 
+    "Telephone" : "Tel:  519-668-1104", 
+    "Fax" : "Fax:  519-668-1941"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431876a"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Arnott  Ted", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "181 St. Andrew Street East  2nd Floor", 
+    "City" : "Fergus", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N1M 1P9", 
+    "Email Address" : "ted.arnottco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-265-2366", 
+    "Fax" : "Fax:  519-787-5249"
+}
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e85"), 
+    "Honorific" : null, 
+    "Name" : "Arthur  Ian", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 2", 
+    "Street" : "303 Bagot Street The LaSalle Mews", 
+    "City" : "Kingston", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K7K 5W7", 
+    "Email Address" : "IArthur-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  613-547-2385", 
+    "Fax" : "Fax:  613-547-5001"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e90"), 
+    "Honorific" : null, 
+    "Name" : "Baber  Roman", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "539 Wilson Heights Boulevard", 
+    "City" : "Downsview", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M3H 2V7", 
+    "Email Address" : "roman.baberco@pc.ola.org", 
+    "Telephone" : "Tel:  416-630-0080", 
+    "Fax" : "Fax:  416-630-8828"
+}
+{ 
+   "_id" : ObjectId("5bbabdd4b5dbd8518cd21e83"), 
+    "Honorific" : null, 
+    "Name" : "Babikian  Aris", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 3", 
+    "Street" : "2245 Kennedy Road", 
+    "City" : "Scarborough", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M1T 3G8", 
+    "Email Address" : "aris.babikianco@pc.ola.org", 
+    "Telephone" : "Tel:  416-297-6568", 
+    "Fax" : "Fax:  416-297-4962"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e8b"), 
+    "Honorific" : null, 
+    "Name" : "Bailey  Robert", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 102", 
+    "Street" : "805 Christina Street North", 
+    "City" : "Point Edward", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N7V 1X6", 
+    "Email Address" : "bob.baileyco@pc.ola.org", 
+    "Telephone" : "Tel:  519-337-0051", 
+    "Fax" : "Fax:  519-337-3246"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431876f"), 
+    "Honorific" : null, 
+    "Name" : "Barrett  Toby", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "39 Norfolk Street North", 
+    "City" : "Simcoe", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N3Y 3N6", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  519-428-0446", 
+    "Fax" : "Fax:  519-428-0835"
+}
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e7b"),  
+    "Honorific" : null, 
+    "Name" : "Bell, Jessica", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 103", 
+    "Street" : "719 Bloor Street West", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M5G 1K5", 
+    "Email Address" : "JBell-QP@ndp.on.ca", 
+    "Telephone" : "Tel:  416-535-7206", 
+    "Fax" : null
+}
+{ 
+     "_id" : ObjectId("5bbabdd4b5dbd8518cd21e7f"), 
+    "Honorific" : null, 
+    "Name" : "Berns-McGown  Rima", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "1821 Danforth Avenue", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M4C 1J2", 
+    "Email Address" : "RBerns-McGown-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-690-1032", 
+    "Fax" : "Fax:  416-690-8420"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318772"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Bethlenfalvy  Peter", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 7", 
+    "Street" : "300 Kingston Road", 
+    "City" : "Pickering", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L1V 6Z9", 
+    "Email Address" : "peter.bethlenfalvyco@pc.ola.org", 
+    "Telephone" : "Tel:  905-509-0336", 
+    "Fax" : "Fax:  905-509-0334"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318773"), 
+    "Honorific" : null, 
+    "Name" : "Bisson  Gilles", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 202", 
+    "Street" : "60 Wilson Avenue", 
+    "City" : "Timmins", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P4N 2S7", 
+    "Email Address" : "gbisson@ndp.on.ca", 
+    "Telephone" : "Toll Free:  1-800-461-9878  Tel:  705-268-6400", 
+    "Fax" : "Fax:  705-266-9125"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318774"), 
+    "Honorific" : null, 
+    "Name" : "Bouma  Will", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 101", 
+    "Street" : "96 Nelson Street", 
+    "City" : "Brantford", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N3T 2N1", 
+    "Email Address" : "will.bouma@pc.ola.org", 
+    "Telephone" : "Tel:  519-759-0361", 
+    "Fax" : "Fax:  519-759-6439"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318775"), 
+    "Honorific" : null, 
+    "Name" : "Bourgouin  Guy", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "28 Circle Street", 
+    "City" : "Kapuskasing", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P5N 1T7", 
+    "Email Address" : "GBourgouin-QP@ndp.on.ca", 
+    "Telephone" : "Tel:  705-335-6400", 
+    "Fax" : "Fax:  705-337-6869"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e95"), 
+    "Honorific" : null, 
+    "Name" : "Burch  Jeff", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 102", 
+    "Street" : "60 King Street", 
+    "City" : "Welland", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L3B 6A4", 
+    "Email Address" : "JBurch-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  905-732-6884", 
+    "Fax" : "Fax:  905-732-9782"
+}
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e81"),  
+    "Honorific" : null, 
+    "Name" : "Calandra  Paul", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 400", 
+    "Street" : "37 Sandiford Drive", 
+    "City" : "Stouffville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4A 3Z2", 
+    "Email Address" : null, 
+    "Telephone" : "Toll Free:  866-531-9551  Tel:  905-642-2588", 
+    "Fax" : "Fax:  905-642-1618"
+}
+{ 
+    "_id" : ObjectId("5bbabdd4b5dbd8518cd21e78"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Cho  Raymond Sung Joon", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit B", 
+    "Street" : "4559 Sheppard Avenue East", 
+    "City" : "Scarborough", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M1S 1V3", 
+    "Email Address" : "raymond.choco@pc.ola.org", 
+    "Telephone" : "Tel:  416-297-5040", 
+    "Fax" : "Fax:  416-297-6767"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318779"), 
+    "Honorific" : null, 
+    "Name" : "Cho  Stan", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "111 Sheppard Avenue West", 
+    "City" : "North York", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M2N 1M7", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  416-733-7878", 
+    "Fax" : "Fax:  416-733-7709"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e9e"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Steve  Clark", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 101", 
+    "Street" : "100 Strowger Boulevard", 
+    "City" : "Brockville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K6V 5J9", 
+    "Email Address" : null, 
+    "Telephone" : "Toll Free:  1-800-267-4408  Tel:  613-342-9522", 
+    "Fax" : "Fax:  613-342-2501"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e92"), 
+    "Honorific" : null, 
+    "Name" : "Coe  Lorne", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 101", 
+    "Street" : "114 Dundas Street East", 
+    "City" : "Whitby", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L1N 2H7", 
+    "Email Address" : "lorne.coeco@pc.ola.org", 
+    "Telephone" : "Tel:  905-430-1141", 
+    "Fax" : "Fax:  905-430-1840"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431877c"), 
+    "Honorific" : null, 
+    "Name" : "Coteau  Michael", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite L02", 
+    "Street" : "1200 Lawrence Avenue East", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M3A 1C1", 
+    "Email Address" : "mcoteau.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  416-494-6856", 
+    "Fax" : "Fax:  416-494-9937"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431877d"), 
+    "Honorific" : null, 
+    "Name" : "Stephen  Crawford  (Oakville)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 2", 
+    "Street" : "2318 Lakeshore Road West", 
+    "City" : "Oakville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L6L 1H3", 
+    "Email Address" : "stephen.crawfordco@pc.ola.org", 
+    "Telephone" : "Tel:  905-827-5141", 
+    "Fax" : "Fax:  905-827-3786"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431877e"), 
+    "Honorific" : null, 
+    "Name" : "Rudy Cuzzetto", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1 &amp; 2", 
+    "Street" : "120 Lakeshore Road West", 
+    "City" : "Mississauga", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L5H 1E8", 
+    "Email Address" : "rudy.cuzzettoco@pc.ola.org", 
+    "Telephone" : "Tel:  905-274-8228", 
+    "Fax" : "Fax:  905-274-8552"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431877f"), 
+    "Honorific" : null, 
+    "Name" : "Des Rosiers  Nathalie", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "237 Montreal Road", 
+    "City" : "Vanier", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K1L 6C7", 
+    "Email Address" : "NDesRosiers.mpp.CO@liberal.ola.org", 
+    "Telephone" : "Tel:  613-744-4484", 
+    "Fax" : "Fax:  613-744-0889"
+}
+{ 
+    "_id" : ObjectId("5bbabdd3b5dbd8518cd21e70"), 
+    "Honorific" : null, 
+    "Name" : "Downey  Doug", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 14", 
+    "Street" : "20 Bell Farm Road", 
+    "City" : "Barrie", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4M 6E4", 
+    "Email Address" : "doug.downeyco@pc.ola.org", 
+    "Telephone" : "Tel:  705-726-5538", 
+    "Fax" : "Fax:  705-726-2880"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e97"), 
+    "Honorific" : null, 
+    "Name" : "Dunlop  Jill", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 108", 
+    "Street" : "210 Memorial Avenue", 
+    "City" : "Orillia", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L3V 7V1", 
+    "Email Address" : "jill.dunlopco@pc.ola.org", 
+    "Telephone" : "Tel:  705-326-3246", 
+    "Fax" : "Fax:  705-326-9579"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318782"), 
+    "Honorific" : null, 
+    "Name" : "Dunlop  Jill", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 6", 
+    "Street" : "295 King Street  TD Canada Trust Bank Plaza", 
+    "City" : "Midland", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4R 3M5", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  705-526-8671", 
+    "Fax" : "Fax:  705-526-8600"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318783"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Elliott  Christine", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 203", 
+    "Street" : "238 Wellington Street East", 
+    "City" : "Aurora", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4G 1J5", 
+    "Email Address" : "christine.elliottco@pc.ola.org", 
+    "Telephone" : "Tel:  905-750-0019", 
+    "Fax" : "Fax:  905-750-0050"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318784"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hon. Victor Fedeli", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "165 Main Street East", 
+    "City" : "North Bay", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P1B 1A9", 
+    "Email Address" : "vic.fedelico@pc.ola.org", 
+    "Telephone" : "Tel:  705-474-8340", 
+    "Fax" : "Fax:  705-474-9747"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318785"), 
+    "Honorific" : null, 
+    "Name" : "Fife  Catherine", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 220", 
+    "Street" : "100 Regina Street South", 
+    "City" : "Waterloo", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N2J 4P9", 
+    "Email Address" : "cfife-co@ndp.on.ca", 
+    "Telephone" : "Tel:  519-725-3477", 
+    "Fax" : "Fax:  519-725-3667"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318786"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Ford  Doug", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "823 Albion Road", 
+    "City" : "Etobicoke", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M9V 1A3", 
+    "Email Address" : "doug.fordco@pc.ola.org", 
+    "Telephone" : "Tel:  416-745-2859", 
+    "Fax" : "Fax:  416-745-4601"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318787"), 
+    "Honorific" : null, 
+    "Name" : "Fraser  John", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "1828 Bank Street", 
+    "City" : "Ottawa", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K1V 7Y6", 
+    "Email Address" : "Jfraser.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  613-736-9573", 
+    "Fax" : "Fax:  613-736-7374"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318788"), 
+    "Honorific" : null, 
+    "Name" : "Jennifer K. French", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 2", 
+    "Street" : "78 Centre Street North", 
+    "City" : "Oshawa", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L1G 4B6", 
+    "Email Address" : "JFrench-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  905-723-2411", 
+    "Fax" : "Fax:  905-723-1054"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318789"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Fullerton  Merrilee", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 100", 
+    "Street" : "240 Michael Cowpland Drive", 
+    "City" : "Kanata", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K2M 1P6", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  613-599-3000", 
+    "Fax" : "Fax:  613-599-8183"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e9b"), 
+    "Honorific" : null, 
+    "Name" : "Gates  Wayne", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "265 High Street  Douglas Heights Seniors Centre", 
+    "City" : "Fort Erie", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L2A 3R4", 
+    "Email Address" : "wgates-co@ndp.on.ca", 
+    "Telephone" : "Tel:  905-871-8868", 
+    "Fax" : "Fax:  905-871-4717"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431878b"), 
+    "Honorific" : null, 
+    "Name" : "Gates  Wayne", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "6746 Morrison Street", 
+    "City" : "Niagara Falls", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L2E 6Z8", 
+    "Email Address" : "wgates-co@ndp.on.ca", 
+    "Telephone" : "Tel:  905-357-0681", 
+    "Fax" : "Fax:  905-357-9456"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431878c"), 
+    "Honorific" : null, 
+    "Name" : "France  Gélinas  (Nickel Belt)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 15", 
+    "Street" : "5085 Highway 69 North", 
+    "City" : "Hanmer", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P3P 1P7", 
+    "Email Address" : "fgelinas-co@ndp.on.ca", 
+    "Telephone" : "Tel:  705-969-3621", 
+    "Fax" : "Fax:  705-969-3538"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431878d"), 
+    "Honorific" : null, 
+    "Name" : "Gill  Parm", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 115", 
+    "Street" : "450 Bronte Street South", 
+    "City" : "Milton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9T 5B7", 
+    "Email Address" : "parm.gillco@pc.ola.org", 
+    "Telephone" : "Tel:  905-878-1729", 
+    "Fax" : "Fax:  905-878-5144"
+}
+{ 
+    "_id" : ObjectId("5bbabdd6b5dbd8518cd21ea3"), 
+    "Honorific" : null, 
+    "Name" : "Glover  Chris", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit A", 
+    "Street" : "226 Bathurst Street", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M5T 2R9", 
+    "Email Address" : "CGlover-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-603-9664", 
+    "Fax" : "Fax:  416-603-1214"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431878f"), 
+    "Honorific" : null, 
+    "Name" : "Gravelle  Michael", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "179 Algoma Street South", 
+    "City" : "Thunder Bay", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P7B 3C1", 
+    "Email Address" : "mgravelle.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  807-345-3647", 
+    "Fax" : "Fax:  807-345-2922"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318790"), 
+    "Honorific" : null, 
+    "Name" : "Lisa  Gretzky  (Windsor West)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 5", 
+    "Street" : "321 Tecumseh Road East", 
+    "City" : "Windsor", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N8X 2R5", 
+    "Email Address" : "LGretzky-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  519-977-7191", 
+    "Fax" : "Fax:  519-977-7029"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318791"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hardeman  Ernie", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "12 Perry Street  2nd Floor", 
+    "City" : "Woodstock", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N4S 3C2", 
+    "Email Address" : "ernie.hardemanco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-265-4046  Tel:  519-537-5222", 
+    "Fax" : "Fax:  519-537-3577"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318792"), 
+    "Honorific" : null, 
+    "Name" : "Harden  Joel", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "109 Catherine Street", 
+    "City" : "Ottawa", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K2P 0P4", 
+    "Email Address" : "JHarden-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  613-722-6414", 
+    "Fax" : "Fax:  613-722-6703"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318793"), 
+    "Honorific" : null, 
+    "Name" : "Harris  Mike", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 3 &amp; 4", 
+    "Street" : "63 Arthur Street South", 
+    "City" : "Elmira", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N3B 2M6", 
+    "Email Address" : "mike.harrisco@pc.ola.org", 
+    "Telephone" : "Tel:  519-669-2090", 
+    "Fax" : "Fax:  519-669-0476"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318794"), 
+    "Honorific" : null, 
+    "Name" : "Hassan  Faisal", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "1965 Weston Road", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M9N 1W8", 
+    "Email Address" : "FHassan-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-243-7984", 
+    "Fax" : "Fax:  416-243-0327"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318795"), 
+    "Honorific" : null, 
+    "Name" : "Hatfield  Percy", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "5452 Tecumseh Road East", 
+    "City" : "Windsor", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N8T 1C7", 
+    "Email Address" : "PHatfield-co@ndp.on.ca", 
+    "Telephone" : "Tel:  519-251-5199", 
+    "Fax" : "Fax:  519-251-5299"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318796"), 
+    "Honorific" : null, 
+    "Name" : "Hillier  Randy", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "105 Dufferin Street", 
+    "City" : "Perth", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K7H 3A5", 
+    "Email Address" : "randy.hillierco@pc.ola.org", 
+    "Telephone" : "Tel:  613-267-8239", 
+    "Fax" : "Fax:  613-267-7398"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318797"), 
+    "Honorific" : null, 
+    "Name" : "Hogarth  Christine", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "933 The Queensway", 
+    "City" : "Etobicoke", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M8Z 1P3", 
+    "Email Address" : "christine.hogarthco@pc.ola.org", 
+    "Telephone" : "Tel:  416-259-2249", 
+    "Fax" : "Fax:  416-259-3704"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318798"), 
+    "Honorific" : null, 
+    "Name" : "Horwath  Andrea", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 200", 
+    "Street" : "20 Hughson Street South", 
+    "City" : "Hamilton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L8N 2A1", 
+    "Email Address" : "ahorwath-co@ndp.on.ca", 
+    "Telephone" : "Tel:  905-544-9644", 
+    "Fax" : "Fax:  905-544-5152"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec834318799"), 
+    "Honorific" : null, 
+    "Name" : "Hunter  Mitzie", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 109", 
+    "Street" : "4117 Lawrence Avenue East", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M1E 2S2", 
+    "Email Address" : "mhunter.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  416-281-2787", 
+    "Fax" : "Fax:  416-281-2360"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879a"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Jones  Sylvia", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "244 Broadway Avenue", 
+    "City" : "Orangeville", 
+    "Province" : "ON", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9W 1K5", 
+    "Email Address" : "sylvia.jonesco@pc.ola.org", 
+    "Telephone" : "Tel:  519-941-7751", 
+    "Fax" : "Fax:  519-941-3246"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879b"), 
+    "Honorific" : null, 
+    "Name" : "Kanapathi  Logan", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 5", 
+    "Street" : "450 Alden Road", 
+    "City" : "Markham", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L3R 5H4", 
+    "Email Address" : "logan.kanapathico@pc.ola.org", 
+    "Telephone" : "Tel:  905-305-1935", 
+    "Fax" : "Fax:  905-305-1938"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879c"), 
+    "Honorific" : null, 
+    "Name" : "Karahalios  Belinda", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "498 Eagle Street North", 
+    "City" : "Cambridge", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N3H 1C2", 
+    "Email Address" : "belinda.karahaliosco@pc.ola.org", 
+    "Telephone" : null, 
+    "Fax" : "Fax:  519-650-3918"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879d"), 
+    "Honorific" : null, 
+    "Name" : "Karpoche  Bhutila", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "2849 Dundas Street West", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M6P 1Y6", 
+    "Email Address" : "BKarpoche-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-763-5630", 
+    "Fax" : "Fax:  416-763-5640"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879e"), 
+    "Honorific" : null, 
+    "Name" : "Vincent  Ke  (Don Valley North)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 103", 
+    "Street" : "2175 Sheppard Avenue East", 
+    "City" : "North York", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M2J 1W8", 
+    "Email Address" : "vincent.keco@pc.ola.org", 
+    "Telephone" : "Tel:  416-494-8778", 
+    "Fax" : "Fax:  416-494-0110"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec83431879f"), 
+    "Honorific" : null, 
+    "Name" : "Kernaghan  Terence", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 105", 
+    "Street" : "400 York Street", 
+    "City" : "London", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N6B 3N2", 
+    "Email Address" : "TKernaghan-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  519-432-7339", 
+    "Fax" : "Fax:  519-432-0613"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a0"), 
+    "Honorific" : null, 
+    "Name" : "Khanjin  Andrea", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "237 Mapleview Drive East", 
+    "City" : "Barrie", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4N 0W5", 
+    "Email Address" : "andrea.khanjinco@pc.ola.org", 
+    "Telephone" : "Tel:  705-722-0575", 
+    "Fax" : "Fax:  705-722-8835"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a1"), 
+    "Honorific" : null, 
+    "Name" : "Kramp  Daryl", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 6", 
+    "Street" : "6 Dundas Street East  Napanee Downtown Business Hub", 
+    "City" : "Napanee", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K7R 3L4", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  613-308-9625", 
+    "Fax" : "Fax:  613-308-9685"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a2"), 
+    "Honorific" : null, 
+    "Name" : "Kramp  Daryl", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "26A St. Lawrence Street West  P.O. BOX 70", 
+    "City" : "Madoc", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K0K 2K0", 
+    "Email Address" : null, 
+    "Telephone" : "Toll Free:  855-229-6676 Tel:  343-600-3310", 
+    "Fax" : "Fax:  343-600-3329"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a3"), 
+    "Honorific" : null, 
+    "Name" : "Marie-France  Lalonde  (Orléans)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 206", 
+    "Street" : "250 Centrum Boulevard", 
+    "City" : "Orl�ans", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K1E 3J1", 
+    "Email Address" : "mflalonde.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  613-834-8679", 
+    "Fax" : "Fax:  613-834-7647"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a4"), 
+    "Honorific" : null, 
+    "Name" : "Lecce  Stephen", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "2220 King Road", 
+    "City" : "King City", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L7B 1L3", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  647-560-9700", 
+    "Fax" : "Fax:  647-560-9701"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a5"), 
+    "Honorific" : null, 
+    "Name" : "Laura Mae  Lindo  (Kitchener Centre)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 3", 
+    "Street" : "379 Queen Street South", 
+    "City" : "Kitchener", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N2G 1W6", 
+    "Email Address" : "LLindo-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  519-579-5460", 
+    "Fax" : "Fax:  519-579-2121"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a6"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hon. Lisa  MacLeod  (Nepean)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 10", 
+    "Street" : "3500 Fallowfield Road", 
+    "City" : "Nepean", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K2J 4A7", 
+    "Email Address" : "lisa.macleodco@pc.ola.org", 
+    "Telephone" : "Tel:  613-823-2116", 
+    "Fax" : "Fax:  613-823-8284"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a7"), 
+    "Honorific" : null, 
+    "Name" : "Mamakwa  Sol", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 104", 
+    "Street" : "73 King Street  P.O. BOX 176", 
+    "City" : "Sioux Lookout", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P8T 1A1", 
+    "Email Address" : "SMamakwa-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  807-737-2210", 
+    "Fax" : "Fax:  807-737-1592"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a8"), 
+    "Honorific" : null, 
+    "Name" : "Mantha  Michael", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "18 Mary Walk", 
+    "City" : "Elliot Lake", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P5A 2A1", 
+    "Email Address" : "mmantha-co@ndp.on.ca", 
+    "Telephone" : "Toll Free:  1-800-831-1899 Tel:  705-461-9710", 
+    "Fax" : "Fax:  705-461-9720"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187a9"), 
+    "Honorific" : null, 
+    "Name" : "Martin  Robin", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "2882 Dufferin Street", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M6B 3S6", 
+    "Email Address" : "robin.martinco@pc.ola.org", 
+    "Telephone" : "Tel:  416-781-2395", 
+    "Fax" : "Fax:  416-781-4116"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187aa"), 
+    "Honorific" : null, 
+    "Name" : "Gila  Martow  (Thornhill)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 4", 
+    "Street" : "1136 Centre Street  Centre Street Square", 
+    "City" : "Thornhill", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4J 3M8", 
+    "Email Address" : "gila.martowco@pc.ola.org", 
+    "Telephone" : "Tel:  905-731-8462", 
+    "Fax" : "Fax:  905-731-2984"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ab"), 
+    "Honorific" : null, 
+    "Name" : "McDonell  Jim", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "120 Second Street West  Time Square", 
+    "City" : "Cornwall", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K6J 1G5", 
+    "Email Address" : "jim.mcdonellco@pc.ola.org", 
+    "Telephone" : "Tel:  613-933-6513", 
+    "Fax" : "Fax:  613-933-6449"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ac"), 
+    "Honorific" : null, 
+    "Name" : "Jane  McKenna  (Burlington)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 104", 
+    "Street" : "472 Brock Avenue", 
+    "City" : "Burlington", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L7S 1N1", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  905-639-7924", 
+    "Fax" : "Fax:  905-639-3284"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ad"), 
+    "Honorific" : "Hon.", 
+    "Name" : "McNaughton  Monte", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "360 James Street", 
+    "City" : "Wallaceburg", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N8A 2N5", 
+    "Email Address" : "monte.mcnaughtonco@pc.ola.org", 
+    "Telephone" : "Tel:  519-627-1015", 
+    "Fax" : "Fax:  519-627-7174"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ae"), 
+    "Honorific" : "Hon.", 
+    "Name" : "McNaughton  Monte", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "81 Front Street West", 
+    "City" : "Strathroy", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N7G 1X6", 
+    "Email Address" : "monte.mcnaughtonco@pc.ola.org", 
+    "Telephone" : "Tel:  519-245-8696", 
+    "Fax" : "Fax:  519-245-8697"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187af"), 
+    "Honorific" : null, 
+    "Name" : "Norman  Miller  (Parry Sound—Muskoka)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "289 Queenston Road", 
+    "City" : "Hamilton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L8K 1H2", 
+    "Email Address" : "pmiller-co@ndp.on.ca", 
+    "Telephone" : "Tel:  905-545-0114", 
+    "Fax" : "Fax:  905-545-9024"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b0"), 
+    "Honorific" : null, 
+    "Name" : "Miller  Norman", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "17 James Street", 
+    "City" : "Parry Sound", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P2A 1T4", 
+    "Email Address" : null, 
+    "Telephone" : "Toll Free:  1-888-701-1176 Tel:  705-746-4266", 
+    "Fax" : "Fax:  705-746-1578"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b1"), 
+    "Honorific" : null, 
+    "Name" : "Miller  Norman", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "165 Manitoba Street", 
+    "City" : "Bracebridge", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P1L 1S3", 
+    "Email Address" : null, 
+    "Telephone" : "Toll Free:  1-888-267-4826 Tel:  705-645-8538", 
+    "Fax" : "Fax:  705-645-8148"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b2"), 
+    "Honorific" : null, 
+    "Name" : "Christina Maria Mitas  (Scarborough Centre)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "2063 Lawrence Avenue East", 
+    "City" : "Scarborough", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M1R 2Z4", 
+    "Email Address" : "christina.mitasco@pc.ola.org", 
+    "Telephone" : "Tel:  416-615-2183", 
+    "Fax" : "Fax:  416-615-2011"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b3"), 
+    "Honorific" : null, 
+    "Name" : "Judith  Monteith-Farrell  (Thunder Bay—Atikokan)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "409 George Street", 
+    "City" : "Thunder Bay", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P7E 5Y9", 
+    "Email Address" : "JMonteith-Farrell-CO@ndp.on.ca", 
+    "Telephone" : "Toll Free:  833-673-4129 Tel:  807-622-1920", 
+    "Fax" : "Fax:  807-622-3263"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b4"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hon. Caroline  Mulroney  (York—Simcoe)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 8", 
+    "Street" : "45 Grist Mill Road", 
+    "City" : "Holland Landing", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9N 1M7", 
+    "Email Address" : "caroline.mulroneyco@pc.ola.org", 
+    "Telephone" : "Tel:  905-895-1555", 
+    "Fax" : "Fax:  905-895-0337"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b5"), 
+    "Honorific" : null, 
+    "Name" : "Taras  Natyshak  (Essex)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "316 Talbot Street North", 
+    "City" : "Essex", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N8M 2E1", 
+    "Email Address" : "tnatyshak-co@ndp.on.ca", 
+    "Telephone" : "Toll Free:  1-800-265-3909 Tel:  519-776-6420", 
+    "Fax" : "Fax:  519-776-6980"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b6"), 
+    "Honorific" : null, 
+    "Name" : "Nicholls  Rick", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 100", 
+    "Street" : "111 Heritage Road", 
+    "City" : "Chatham", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N7M 5W7", 
+    "Email Address" : "rick.nichollsco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-265-3992  Tel:  519-351-0510", 
+    "Fax" : "Fax:  519-351-7714"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b7"), 
+    "Honorific" : null, 
+    "Name" : "Nicholls  Rick", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit B", 
+    "Street" : "115 Erie Street North", 
+    "City" : "Leamington", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N8H 3A3", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  519-326-3367", 
+    "Fax" : "Fax:  519-326-0404"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b8"), 
+    "Honorific" : null, 
+    "Name" : "Sam  Oosterhoff  (Niagara West)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit M1", 
+    "Street" : "4961 King Street East", 
+    "City" : "Beamsville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L0R 1B0", 
+    "Email Address" : "Sam  Oosterhoff  (Niagara West)  Oosterhoff  (Niagara West).oosterhoffco@pc.ola.org", 
+    "Telephone" : "Tel:  905-563-1755", 
+    "Fax" : "Fax:  905-563-1317"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187b9"), 
+    "Honorific" : null, 
+    "Name" : "Billy  Pang  (Markham—Unionville)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 602", 
+    "Street" : "3601 Highway 7 East", 
+    "City" : "Markham", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L3R 0M3", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  905-474-3288", 
+    "Fax" : "Fax:  905-474-2878"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ba"), 
+    "Honorific" : null, 
+    "Name" : "Lindsey  Park  (Durham)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "23 King Street West", 
+    "City" : "Bowmanville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L1C 1R2", 
+    "Email Address" : "lindsey.parkco@pc.ola.org", 
+    "Telephone" : "Tel:  905-697-1501", 
+    "Fax" : "Fax:  905-697-1506"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187bb"), 
+    "Honorific" : null, 
+    "Name" : "Michael  Parsa  (Aurora—Oak Ridges—Richmond Hill)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 403", 
+    "Street" : "13291 Yonge Street", 
+    "City" : "Richmond Hill", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4E 4L6", 
+    "Email Address" : "michael.parsaco@pc.ola.org", 
+    "Telephone" : "Toll Free:  888-486-5352 Tel:  905-773-6250", 
+    "Fax" : "Fax:  905-773-8158"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187bc"), 
+    "Honorific" : null, 
+    "Name" : "Randy  Pettapiece  (Perth—Wellington)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 2", 
+    "Street" : "55 Lorne Avenue East", 
+    "City" : "Stratford", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N5A 6S4", 
+    "Email Address" : "randy.pettapiececo@pc.ola.org", 
+    "Telephone" : "Tel:  519-272-0660", 
+    "Fax" : "Fax:  519-272-1064"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187bd"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Phillips  Rod", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 201A", 
+    "Street" : "50 Commercial Avenue", 
+    "City" : "Ajax", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L1S 2H5", 
+    "Email Address" : "rod.phillipsco@pc.ola.org", 
+    "Telephone" : "Tel:  905-427-2060", 
+    "Fax" : "Fax:  905-427-6976"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187be"), 
+    "Honorific" : null, 
+    "Name" : "David  Piccini  (Northumberland—Peterborough South)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 7", 
+    "Street" : "513 Division Street", 
+    "City" : "Cobourg", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K9A 5G6", 
+    "Email Address" : "david.piccinico@pc.ola.org", 
+    "Telephone" : "Tel:  905-372-4000", 
+    "Fax" : "Fax:  905-372-1672"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187bf"), 
+    "Honorific" : null, 
+    "Name" : "Rakocevic  Tom", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 38", 
+    "Street" : "2300 Finch Avenue West", 
+    "City" : "North York", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M9M 2Y3", 
+    "Email Address" : "TRakocevic-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-743-7272", 
+    "Fax" : "Fax:  416-743-3292"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c0"), 
+    "Honorific" : null, 
+    "Name" : "Rasheed  Kaleed", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 315", 
+    "Street" : "1420 Burnhamthorpe Road East", 
+    "City" : "Mississauga", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4X 2Z9", 
+    "Email Address" : "kaleed.rasheedco@pc.ola.org", 
+    "Telephone" : "Tel:  905-238-1751", 
+    "Fax" : "Fax:  905-238-4918"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c1"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Rickford  Greg", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 2", 
+    "Street" : "439 Government Street", 
+    "City" : "Dryden", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P8N 2P4", 
+    "Email Address" : "greg.rickford@pc.ola.org", 
+    "Telephone" : "Tel:  807-223-6456", 
+    "Fax" : "Fax:  807-223-6593"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c2"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Rickford  Greg", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 1", 
+    "Street" : "279 Scott Street", 
+    "City" : "Fort Frances", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P9A 1G8", 
+    "Email Address" : "greg.rickford@pc.ola.org", 
+    "Telephone" : "Tel:  807-274-7619", 
+    "Fax" : "Fax:  807-274-3721"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c3"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Rickford  Greg", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "300 McClellan Avenue East Room", 
+    "City" : "Kenora", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P9N 1A8", 
+    "Email Address" : "greg.rickford@pc.ola.org", 
+    "Telephone" : "Tel:  807-467-2415", 
+    "Fax" : "Fax:  807-467-2641"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c4"), 
+    "Honorific" : null, 
+    "Name" : "Roberts  Jeremy", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 201", 
+    "Street" : "2249 Carling Avenue", 
+    "City" : "Ottawa", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K2B 7E9", 
+    "Email Address" : "jeremy.robertsco@pc.ola.org", 
+    "Telephone" : "Tel:  613-721-8075", 
+    "Fax" : "Fax:  613-721-5756"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c5"), 
+    "Honorific" : null, 
+    "Name" : "Romano  Ross", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 102", 
+    "Street" : "390 Bay Street", 
+    "City" : "Sault Ste Marie", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P6A 1X2", 
+    "Email Address" : "ross.romanoco@pc.ola.org", 
+    "Telephone" : "Tel:  705-949-6959", 
+    "Fax" : "Fax:  705-946-6269"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c6"), 
+    "Honorific" : null, 
+    "Name" : "Sandhu  Amarjot", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 309", 
+    "Street" : "10 Gillingham Drive", 
+    "City" : "Brampton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L6X 0G6", 
+    "Email Address" : "amarjot.sandhuco@pc.ola.org", 
+    "Telephone" : "Tel:  905-595-1532", 
+    "Fax" : "Fax:  905-457-8496"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c7"), 
+    "Honorific" : null, 
+    "Name" : "Sarkaria  Prabmeet Singh", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 412A", 
+    "Street" : "7700 Hurontario Street", 
+    "City" : "Brampton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L6Y 4M3", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  905-796-8669", 
+    "Fax" : "Fax:  905-796-8069"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c8"), 
+    "Honorific" : null, 
+    "Name" : "Peggy  Sattler  (London West)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 106", 
+    "Street" : "240 Commissioners Road West", 
+    "City" : "London", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N6J 1Y1", 
+    "Email Address" : "Psattler-co@ndp.on.ca", 
+    "Telephone" : "Tel:  519-657-3120", 
+    "Fax" : "Fax:  519-657-0368"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187c9"), 
+    "Honorific" : null, 
+    "Name" : "Schreiner  Mike", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "173 Woolwich Street", 
+    "City" : "Guelph", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N1H 3V4", 
+    "Email Address" : "mschreiner-co@ola.org", 
+    "Telephone" : "Tel:  519-836-4190", 
+    "Fax" : "Fax:  519-836-4191"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187ca"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hon. Laurie  Scott  (Haliburton—Kawartha Lakes—Brock)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "14 Lindsay Street North", 
+    "City" : "Lindsay", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K9V 1T4", 
+    "Email Address" : "laurie.scottco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-424-2490", 
+    "Fax" : null
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187cb"), 
+    "Honorific" : null, 
+    "Name" : "Amanda  Simard  (Glengarry—Prescott—Russell)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 116", 
+    "Street" : "151 Main Street East", 
+    "City" : "Hawkesbury", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K6A 1A1", 
+    "Email Address" : "amanda.simard@pc.ola.org", 
+    "Telephone" : "Toll Free:  800-294-8250  Tel:  613-632-2706", 
+    "Fax" : "Fax:  613-632-1554"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187cc"), 
+    "Honorific" : null, 
+    "Name" : "Skelly  Donna", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 104", 
+    "Street" : "2000 Garth Street", 
+    "City" : "Hamilton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9B 0C1", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  905-679-3770", 
+    "Fax" : "Fax:  905-679-0288"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187cd"), 
+    "Honorific" : null, 
+    "Name" : "Smith  Dave", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "236 King Street", 
+    "City" : "Peterborough", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K9J 7L8", 
+    "Email Address" : "dave.smithco@pc.ola.org", 
+    "Telephone" : "Tel:  705-742-3777", 
+    "Fax" : "Fax:  705-742-1822"
+}
+{ 
+    "_id" : ObjectId("5bbabdd5b5dbd8518cd21e87"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Smith  Todd", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 4", 
+    "Street" : "5503 Highway 62 South", 
+    "City" : "Belleville", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K8N 4Z7", 
+    "Email Address" : "todd.smithco@pc.ola.org", 
+    "Telephone" : "Toll Free:  877-536-6248 Tel:  613-962-1144", 
+    "Fax" : "Fax:  613-969-6381"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187cf"), 
+    "Honorific" : null, 
+    "Name" : "Stevens  Jennifer (Jennie)", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : null, 
+    "City" : "St. Catharines", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : null, 
+    "Email Address" : "JStevens-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  905-935-0018", 
+    "Fax" : "Fax:  905-935-0191"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d0"), 
+    "Honorific" : null, 
+    "Name" : "Stiles  Marit", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "1199 Bloor Street West", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M6H 1N4", 
+    "Email Address" : "MStiles-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  416-535-3158", 
+    "Fax" : "Fax:  416-535-6587"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d1"), 
+    "Honorific" : null, 
+    "Name" : "Surma  Kinga", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 102", 
+    "Street" : "201 Lloyd Manor Road  Lloydmanor Shopping Centre", 
+    "City" : "Etobicoke", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M9B 6H6", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  416-234-2800", 
+    "Fax" : "Fax:  416-234-2276"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d2"), 
+    "Honorific" : null, 
+    "Name" : "Tabuns  Peter", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "923 Danforth Avenue", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M4J 1L8", 
+    "Email Address" : "tabunsp-co@ndp.on.ca", 
+    "Telephone" : "Tel:  416-461-0223", 
+    "Fax" : "Fax:  416-461-9542"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d3"), 
+    "Honorific" : null, 
+    "Name" : "Tangri  Nina", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 220", 
+    "Street" : "2000 Argentia Road  2nd Floor  Plaza IV", 
+    "City" : "Mississauga", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L5N 1W1", 
+    "Email Address" : "nina.tangrico@pc.ola.org", 
+    "Telephone" : "Tel:  905-569-1643", 
+    "Fax" : "Fax:  905-569-6416"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d4"), 
+    "Honorific" : null, 
+    "Name" : "Monique  Taylor  (Hamilton Mountain)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 202", 
+    "Street" : "555 Concession Street", 
+    "City" : "Hamilton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L8V 1A8", 
+    "Email Address" : "mtaylor-co@ndp.on.ca", 
+    "Telephone" : "Tel:  905-388-9734", 
+    "Fax" : "Fax:  905-388-7862"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d5"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Thompson  Lisa", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "408 Queen Street  P.O. BOX 426", 
+    "City" : "Blyth", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N0M 1H0", 
+    "Email Address" : "lisa.thompsonco@pc.ola.org", 
+    "Telephone" : "Tel:  519-523-4251", 
+    "Fax" : "Fax:  226-523-9296"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d6"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Thompson  Lisa", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 2", 
+    "Street" : "807 Queen Street", 
+    "City" : "Kincardine", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N2Z 2Y2", 
+    "Email Address" : "lisa.thompsonco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-866-396-3007 Tel:  519-396-3007", 
+    "Fax" : "Fax:  519-396-3011"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d7"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Tibollo  Michael A.", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 3", 
+    "Street" : "5100 Rutherford Road", 
+    "City" : "Woodbridge", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4H 2J2", 
+    "Email Address" : "michael.tibolloco@pc.ola.org", 
+    "Telephone" : "Tel:  905-893-4428", 
+    "Fax" : "Fax:  905-893-4537"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d8"), 
+    "Honorific" : null, 
+    "Name" : "Triantafilopoulos  Effie J.", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Room 124NW", 
+    "Street" : "Main Legislative Building", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M7A 1A8", 
+    "Email Address" : null, 
+    "Telephone" : "Tel:  905-220-8448", 
+    "Fax" : null
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187d9"), 
+    "Honorific" : null, 
+    "Name" : "Vanthof  John", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 5", 
+    "Street" : "247 Whitewood Avenue  P.O. BOX 398  Pinewoods Centre", 
+    "City" : "New Liskeard", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P0J 1P0", 
+    "Email Address" : "jvanthof-co@ndp.on.ca", 
+    "Telephone" : "Tel:  705-647-5995", 
+    "Fax" : "Fax:  705-647-1976"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187da"), 
+    "Honorific" : null, 
+    "Name" : "Vanthof  John", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "63B Government Road West", 
+    "City" : "Kirkland Lake", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P2N 2E6", 
+    "Email Address" : "jvanthof-co@ndp.on.ca", 
+    "Telephone" : "Tel:  705-567-4650", 
+    "Fax" : "Fax:  705-567-4208"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187db"), 
+    "Honorific" : null, 
+    "Name" : "Vanthof  John", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "193 King Street  2nd Floor", 
+    "City" : "Sturgeon Falls", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P2B 1R8", 
+    "Email Address" : "jvanthof-co@ndp.on.ca", 
+    "Telephone" : "Tel:  705-753-0200", 
+    "Fax" : "Fax:  705-753-0800"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187dc"), 
+    "Honorific" : null, 
+    "Name" : "Daisy  Wai  (Richmond Hill)Daisy", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 311", 
+    "Street" : "9555 Yonge Street", 
+    "City" : "Richmond Hill", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L4C 9M5", 
+    "Email Address" : "daisy.waico@pc.ola.org", 
+    "Telephone" : "Tel:  905-884-8080", 
+    "Fax" : "Fax:  905-884-1040"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187dd"), 
+    "Honorific" : null, 
+    "Name" : "Walker  Bill", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 100", 
+    "Street" : "920 1st Avenue West", 
+    "City" : "Owen Sound", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N4K 4K5", 
+    "Email Address" : "bill.walkerco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-461-2664 Tel:  519-371-2421", 
+    "Fax" : "Fax:  519-371-0953"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187de"), 
+    "Honorific" : null, 
+    "Name" : "West  Jamie", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 4B", 
+    "Street" : "555 Barrydowne Road", 
+    "City" : "Sudbury", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "P3A 3T4", 
+    "Email Address" : "JWest-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  705-675-1914", 
+    "Fax" : "Fax:  705-675-1456"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187df"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Wilson  Jim", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 28", 
+    "Street" : "180 Parsons Road", 
+    "City" : "Alliston", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9R 1E8", 
+    "Email Address" : "jim.wilsonco@pc.ola.org", 
+    "Telephone" : "Tel:  705-435-4087", 
+    "Fax" : "Fax:  705-435-1051"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187e0"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Wilson  Jim", 
+    "Office Type" : "Constituency", 
+    "Suite" : null, 
+    "Street" : "50 Hume Street", 
+    "City" : "Collingwood", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L9Y 1V2", 
+    "Email Address" : "jim.wilsonco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-268-7542 Tel:  705-446-1090", 
+    "Fax" : "Fax:  705-446-3397"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187e1"), 
+    "Honorific" : null, 
+    "Name" : "Wynne  Kathleen O.", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 101", 
+    "Street" : "795 Eglinton Avenue East", 
+    "City" : "Toronto", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "M4G 4E4", 
+    "Email Address" : "kwynne.mpp.co@liberal.ola.org", 
+    "Telephone" : "Tel:  416-425-6777", 
+    "Fax" : "Fax:  416-425-0350"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187e2"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Hon. John  Yakabuski  (Renfrew—Nipissing—Pembroke)", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 6", 
+    "Street" : "84 Isabella Street  The Victoria Center", 
+    "City" : "Pembroke", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "K8A 5S5", 
+    "Email Address" : "john.yakabuskico@pc.ola.org", 
+    "Telephone" : "Tel:  613-735-6627", 
+    "Fax" : "Fax:  613-735-6692"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187e3"), 
+    "Honorific" : null, 
+    "Name" : "Yarde  Kevin", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Unit 7", 
+    "Street" : "10215 Kennedy Road North", 
+    "City" : "Brampton", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "L6Z 0C5", 
+    "Email Address" : "KYarde-CO@ndp.on.ca", 
+    "Telephone" : "Tel:  905-495-8030", 
+    "Fax" : "Fax:  905-495-1041"
+}
+{ 
+    "_id" : ObjectId("5bab0471610dfec8343187e4"), 
+    "Honorific" : "Hon.", 
+    "Name" : "Yurek  Jeff", 
+    "Office Type" : "Constituency", 
+    "Suite" : "Suite 201", 
+    "Street" : "750 Talbot Street", 
+    "City" : "St. Thomas", 
+    "Province" : "Ontario", 
+    "Country" : "Canada", 
+    "Postal Code" : "N5P 1E2", 
+    "Email Address" : "jeff.yurekco@pc.ola.org", 
+    "Telephone" : "Toll Free:  1-800-265-7638 Tel:  519-631-0666", 
+    "Fax" : "Fax:  519-631-9478"
+}

@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
 const mongoose = require('mongoose');
-const EachMPP = require('../models/eachMPP');
+const eachmpp = require('../models/eachMPP');
 const db = require('../models/MPPurl');
 const keys = require('../../config/keys');
 
@@ -13,19 +13,20 @@ mongoose.connect(
 );
 
 // still working on an array to get each page, right now the scrape is hardcoded with Dougie.
-const eachMPPRouter = router => {
+const eachmppRouter = router => {
   router.get('/scrape', (req, res) => {
     db.find({}, { _id: 0.0, __v: 0.0 }, (err, docs) => {
       const urlArray = docs.map(el => el.url);
-
       urlArray.forEach(element => {
         axios.get(element).then(response => {
           const $ = cheerio.load(response.data);
           const result = {};
           result.url = element;
-          result.name = $('.views-field-field-current-riding')
-            .find('h1')
-            .text();
+          result.name = $('h1.field-content')
+            .text()
+            .replace(/ *\([^)]*\) */g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
           const photo = $('.views-field-field-image')
             .find('img')
             .attr('src');
@@ -74,11 +75,14 @@ const eachMPPRouter = router => {
           result.ridingMap = $('.views-field-field-riding-map')
             .find('a')
             .attr('href');
-          EachMPP.create(result)
+          eachmpp
+            .create(result)
             .then(dbeachMPP => {
               console.log(dbeachMPP);
             })
-            .catch(err => res.json(err));
+            .catch
+            // err => res.json(err)
+            ();
         });
       });
     });
@@ -89,4 +93,4 @@ const eachMPPRouter = router => {
   return router;
 };
 
-module.exports = eachMPPRouter;
+module.exports = eachmppRouter;
