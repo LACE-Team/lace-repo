@@ -21,7 +21,7 @@ const styles = {
     height: '400px',
   },
   rightA: {
-    'margin-right': '0px',
+    'marginRight': '0px',
   },
 };
 
@@ -36,14 +36,14 @@ export default class SelectedMPP extends Component {
   // componentDidMount() {
   //   this.loadHansard();
   // }
-  
+
   loadHansard = () => {
     API.getHansard(this.state.speech)
-    .then(res => 
+    .then(res =>
       this.setState({ hansard: res.data, speech: '' }))
     .catch(err => console.log(err));
   };
-  
+
   // componentDidMount() {
   //   // getTweets(this.state.tUsername);
   //   newsapi.v2

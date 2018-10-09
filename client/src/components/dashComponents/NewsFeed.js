@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {};
 
 styles.rightA = {
-  'margin-right': '0px',
+  'marginRight': '0px',
 };
 
 const NewsFeed = ({ customStyle, props }) => (

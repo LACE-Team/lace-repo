@@ -7,6 +7,10 @@ import App from './App';
 import reducers from './reducers';
 // import registerServiceWorker from './registerServiceWorker';
 
+// Dev helpers
+import axios from 'axios';
+window.axios = axios;
+
 const store = createStore(reducers, {}, applyMiddleware());
 
 ReactDOM.render(
@@ -15,4 +19,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+console.log('OUR ENVIRONMENT IS: ', process.env.NODE_ENV);
 // registerServiceWorker();

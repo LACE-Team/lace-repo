@@ -39,6 +39,7 @@ app.use(passport.session());
 
 // passport routes
 require('./routes/authRoutes')(app);
+require('./routes/mppRoutes')(app);
 
 mongoose.connect(
   keys.mongoURI,

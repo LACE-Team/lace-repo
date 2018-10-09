@@ -1,10 +1,5 @@
 const passport = require('passport');
 
-// PASSPORT STUFF
-// this router handler will try to auth the user using passport and passing the passport strategy (defined above as googleStrategy} - CA notes
-// code internal to googel oauth20 has some logic that thats authentics with a string of google will use this GoogleStrategy. -CA notes
-// the scope is asking google to give access to the user profile and email. this is defined types, see docs for more -CA notes
-
 module.exports = app => {
   app.get(
     '/auth/google',
@@ -13,17 +8,16 @@ module.exports = app => {
     })
   );
 
-  app.get('/auth/google/callback', passport.authenticate('google'));
+  app.get('/auth/google/callback', passport.authenticate('google'), (req, res) => {
+    res.redirect('/test');
+  });
 
   app.get('/api/logout', (req, res) => {
     req.logout();
-    res.send(req.user);
+    res.redirect('/');
   });
 
-  //
   app.get('/api/current_user', (req, res) => {
     res.send(req.user);
   });
 };
-
-// END OF PASSPORT STUFF
