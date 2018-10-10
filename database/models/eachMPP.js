@@ -40,7 +40,8 @@ const eachmppSchema = new Schema({
   ridingMap: {
     type: String,
   },
-  telephone: [{ type: Schema.Types.ObjectId, ref: 'mppqueenparks' }],
+  addressEmailId: { type: Schema.Types.ObjectId, ref: 'mppconstituencies' },
+  billsId: { type: Schema.Types.ObjectId, ref: 'bills' },
 });
 
 // This creates our model from the above schema, using mongoose's model method

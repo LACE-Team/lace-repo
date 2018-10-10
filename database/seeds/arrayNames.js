@@ -1,4 +1,5 @@
-const array = [
+// eachMPP name array captured by scraping. Used to populate findAndUpdate function which creates reference between eachMppdb with both mppConsitituency and bills## db's
+const arrayNames = [
   { name: 'Jennifer K. French' },
   { name: 'Rudy Cuzzetto' },
   { name: 'Hon. Victor Fedeli' },
@@ -125,4 +126,4 @@ const array = [
   { name: 'Marit Stiles' },
 ];
 
-export default array;
+module.exports = arrayNames;

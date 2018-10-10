@@ -10,6 +10,7 @@ const mppConstituencySchema = new Schema({
   Name: {
     type: String,
     required: true,
+    text: true,
   },
   OfficeType: {
     type: String,
@@ -40,7 +41,6 @@ const mppConstituencySchema = new Schema({
   PostalCode: {
     type: String,
     required: true,
-    text: true,
   },
   EmailAddress: {
     type: String,
