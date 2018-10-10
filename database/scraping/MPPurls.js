@@ -6,10 +6,10 @@ const keys = require('../../config/keys');
 
 // mongoose.connect('mongodb://localhost/lace-repo');
 
-mongoose.connect(
-  keys.mongoURI,
-  { useNewUrlParser: true }
-);
+// mongoose.connect(
+//   keys.mongoURI,
+//   { useNewUrlParser: true }
+// );
 
 // still working on an array to get each page, right now the scrape is hardcoded with Dougie.
 

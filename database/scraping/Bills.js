@@ -2,15 +2,15 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 const cheerioTableParser = require('cheerio-tableparser');
 const mongoose = require('mongoose');
-const Bills = require('../models/Bills');
+const bills = require('../models/bills');
 const keys = require('../../config/keys');
 
 // mongoose.connect('mongodb://localhost/lace-repo');
 
-mongoose.connect(
-  keys.mongoURI,
-  { useNewUrlParser: true }
-);
+// mongoose.connect(
+//   keys.mongoURI,
+//   { useNewUrlParser: true }
+// );
 
 const billsRouter = router => {
   router.get('/scrape', (req, res) => {
@@ -19,7 +19,7 @@ const billsRouter = router => {
       cheerioTableParser($);
       $('.views-row').each((i, element) => {
         const result = {};
-
+        result.data = [];
         result.title = $(element)
           .find('h2')
           .text();
@@ -30,17 +30,19 @@ const billsRouter = router => {
         result.MPP = $(element)
           .find('p')
           .text();
-        result.data = $(element).parsetable(false, false, true);
-
+          result.data = $(element)
+          .find('table')
+          .parsetable(false, false, true);
+        console.log(result.data);
         if (result.title && result.URL) {
-          Bills.create(result)
+          bills
+            .create(result)
             .then(dbBills => {
-              console.log(dbBills);
+              //console.log(dbBills);
             })
             .catch(err => res.json(err));
         }
       });
-
       // Send a "Scrape Complete" message to the browser
       res.send('Scrape Complete');
     });

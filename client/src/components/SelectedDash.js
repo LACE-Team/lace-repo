@@ -32,18 +32,24 @@ export default class SelectedMPP extends Component {
     url: 'https://www.ola.org/en/members/all/doug-ford',
     picture: 'https://www.ola.org/sites/default/files/member/profile-photo/doug_ford.jpg',
     // tUsername: 'fordnation',
+    hansard: []
   };
-  // componentDidMount() {
-  //   this.loadHansard();
-  // }
   
+  //load on Speech Feed
   loadHansard = () => {
     API.getHansard(this.state.speech)
     .then(res => 
-      this.setState({ hansard: res.data, speech: '' }))
+      this.setState({ hansard: res.data}))
     .catch(err => console.log(err));
   };
-  
+  //load on Voting Records page
+  loadVotesByMpp = () => {
+    API.getVotesByMpp(this.state.votes)
+    .then(res => 
+      this.setState({ votes: res.data}))
+    .catch(err => console.log(err));
+  };
+
   // componentDidMount() {
   //   // getTweets(this.state.tUsername);
   //   newsapi.v2
@@ -89,11 +95,12 @@ export default class SelectedMPP extends Component {
           <div className="innerDiv-left">
             <SocialFeed />
             <EventFeed />
+            <SpeechFeed customStyle={styles.rightA} />
           </div>
           <div className="innerDiv-right w-80 ">
             <NewsFeed customStyle={styles.rightA} />
             <VotingRecords customStyle={styles.rightA} />
-            <SpeechFeed customStyle={styles.rightA} />
+           
           </div>
         </div>
       </div>
