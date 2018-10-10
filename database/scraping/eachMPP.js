@@ -1,18 +1,9 @@
+/* eslint-disable */
 const cheerio = require('cheerio');
 const axios = require('axios');
-const mongoose = require('mongoose');
 const eachmpp = require('../models/eachMPP');
 const db = require('../models/MPPurl');
-const keys = require('../../config/keys');
 
-// mongoose.connect('mongodb://localhost/lace-repo');
-
-mongoose.connect(
-  keys.mongoURI,
-  { useNewUrlParser: true }
-);
-
-// still working on an array to get each page, right now the scrape is hardcoded with Dougie.
 const eachmppRouter = router => {
   router.get('/scrape', (req, res) => {
     db.find({}, { _id: 0.0, __v: 0.0 }, (err, docs) => {

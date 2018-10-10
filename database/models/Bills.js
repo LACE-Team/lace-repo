@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const BillsSchema = new Schema({
+const billsSchema = new Schema({
   title: {
     type: String,
     required: true,
@@ -19,10 +19,11 @@ const BillsSchema = new Schema({
   data: {
     type: String,
     required: true,
+    text: true,
   },
 });
 
 // This creates our model from the above schema, using mongoose's model method
-const Bills = mongoose.model('Bills', BillsSchema);
+const bills = mongoose.model('bills', billsSchema);
 
-module.exports = Bills;
+module.exports = bills;

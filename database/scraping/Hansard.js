@@ -1,18 +1,8 @@
+/* eslint-disable */
 const cheerio = require('cheerio');
 const axios = require('axios');
-const mongoose = require('mongoose');
-const express = require('express');
 const Hansard = require('../models/Hansard');
-const keys = require('../../config/keys');
 
-// mongoose.connect('mongodb://localhost/lace-repo');
-
-mongoose.connect(
-  keys.mongoURI,
-  { useNewUrlParser: true }
-);
-
-// still working on an array to get each page, right now the scrape is hardcoded with Dougie.
 const hansardRouter = router => {
   router.get('/scrape', (_req, res) => {
     axios
