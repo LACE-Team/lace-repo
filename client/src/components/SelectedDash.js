@@ -84,8 +84,9 @@ export default class SelectedMPP extends Component {
       <div>
         <MppInfo name={name} position={position} url={url} photo={photo} />
         <div className="outterDiv center w-80" style={styles.layout}>
+          
           <div className="innerDiv-left">
-            <SocialFeed />
+            {/* <SocialFeed twitter={twitter}/> */}
             <EventFeed />
             <SpeechFeed customStyle={styles.rightA} />
           </div>
