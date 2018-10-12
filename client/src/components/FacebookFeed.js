@@ -1,14 +1,8 @@
 /* eslint-disable */
 import React from 'react';
 const FacebookFeed = (props) => (
-    <div className={props.className} style={
-        {
-            height: "200px"
-        }
-    }>
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FFordNationDougFord&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
-        scrolling="yes" frameborder="0" style={{width: '100%'}}>
-        </iframe>
+    <div className={props.className} style={{maxHeight: "489px",overflow: 'scroll'}}>
+    <iframe src='https://www.juicer.io/api/feeds/fordnationdougford-06e90b9f-02ac-4f83-acc8-f8c8113fec22/iframe' frameborder='0' width='1000' height='1000' style={{'display':'block','margin':'0 auto'}}></iframe>  
     </div>
 )
 export default FacebookFeed;

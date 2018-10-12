@@ -1,11 +1,11 @@
 const demoList = [
   {
-    name: 'Doug Ford',
+    name: 'Hon. Doug Ford',
     facebook: 'https://www.facebook.com/FordNationDougFord/',
     twitter: 'https://twitter.com/john_vanthof?lang=en',
   },
   {
-    name: 'Kathleen Wynne',
+    name: 'Kathleen O. Wynne',
     facebook: 'https://www.facebook.com/WynneFans',
     twitter: 'https://twitter.com/kathleen_wynne',
   },
@@ -20,7 +20,7 @@ const demoList = [
     twitter: 'https://twitter.com/coteau',
   },
   {
-    name: 'Sylvia Jones',
+    name: 'Hon. Sylvia Jones',
     facebook: 'https://www.facebook.com/sylviavjones',
     twitter: 'https://twitter.com/sylviajonesmpp',
   },
@@ -35,7 +35,7 @@ const demoList = [
     twitter: 'https://twitter.com/bissongilles',
   },
   {
-    name: 'Christine Elliott',
+    name: 'Hon. Christine Elliott',
     facebook: 'https://www.facebook.com/ChristineElliottON/',
     twitter: 'https://twitter.com/celliottability',
   },

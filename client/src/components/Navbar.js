@@ -4,7 +4,13 @@ import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import { connect } from 'react-redux';
 // import * as actions from '../actions';
-
+const style = {
+  navStyle: {
+    'backgroundColor': '#064373',
+    'borderBottomStyle': 'solid',
+    'borderBottomColor': 'crimson'
+  }
+}
 
 class Navbar extends Component {
 
@@ -31,7 +37,7 @@ class Navbar extends Component {
 
   render(){
     return(
-      <nav className="pa3 pa4-ns">
+      <nav className="pa3 pa4-ns" style={style.navStyle}>
         <Link to="/" className="link dim black b f6 f5-ns dib mr3" title="Home">
         In Their Own Words!
         </Link>

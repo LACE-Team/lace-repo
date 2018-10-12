@@ -10,7 +10,6 @@ import SpeechFeed from './dashComponents/SpeechFeed';
 import VotingRecords from './dashComponents/VotingRecords';
 import demoList from "./list/mppSocial";
 
-
 const styles = {
   layout: {
     display: 'flex',
@@ -37,7 +36,8 @@ export default class SelectedMPP extends Component {
     dateOfService:'',
     currentRiding:'',
     ridingMap:'',
-    hansard: []
+    hansard: [],
+    twitter: 'https://twitter.com/john_vanthof?lang=en'
   };
 
     //load on Speech Feed
@@ -72,21 +72,27 @@ export default class SelectedMPP extends Component {
           currentRiding:res.data[0].currentRiding,
           ridingMap:res.data[0].ridingMap
         })
+        demoList.forEach(person => person.name === this.state.name ? 
+          this.setState({twitter: person.twitter}) 
+          : console.log('no match')
+        );
+        console.log(this.state) //state updates but change is not rendered. Social Feed component should be rendered with new prop
+
       })
-      .catch(err => console.log(err))
-      // console.log(this.props.match.params.mppName)
+      .catch(err => console.log(err))     
+      
   }
 
 
   render() {
-    const { name, position, url, photo } = this.state;
+    const { name, position, url, photo, twitter } = this.state;
     return (
       <div>
         <MppInfo name={name} position={position} url={url} photo={photo} />
         <div className="outterDiv center w-80" style={styles.layout}>
           
           <div className="innerDiv-left">
-            {/* <SocialFeed twitter={twitter}/> */}
+            <SocialFeed twitter={twitter}/>
             <EventFeed />
             <SpeechFeed customStyle={styles.rightA} />
           </div>
