@@ -85,13 +85,13 @@ class Landing extends Component {
                     <div style={{ width: "100%" }}>
                         <TwitterFeed className={this.state.TwitterClass} />
                         <FacebookFeed className={this.state.FacebookClass} />
-                        <div className="btn-group" style={{ width: "100%", borderStyle: "solid" }}>
+                        <div className="btn-group" style={{ width: "100%", backgroundColor: '#064373', borderTopColor: 'crimson', borderTopStyle:'solid' }}>
                             <button style={{ width: "50%" }} onClick={this.TwitterButton}>Twitter</button>
                             <button style={{ width: "50%" }} onClick={this.FacebookButton}>Facebook</button>
                         </div>
                     </div>
                 </div>
-                <div className="postalCodeSearch" style={{marginTop: "0px", marginBottom: "0px", height: "auto", backgroundColor: 'lightblue'}}>
+                <div className="postalCodeSearch" style={{marginTop: "0px", marginBottom: "0px", height: "auto", backgroundColor: 'grey', paddingBottom: '20px', paddingTop: '20px'}}>
                     <h3>Not Sure who your MPP is?</h3>
                     <a href='https://voterinformationservice.elections.on.ca/en/election/search?mode=postalCode' target='blank'>
                         Click here to search by postal code
