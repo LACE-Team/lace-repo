@@ -85,14 +85,18 @@ export default class SelectedMPP extends Component {
     }
 
     getNews(){
-      newsapi.v2
-      .everything({
+      newsapi.v2.everything({
         q: this.state.name,
-        // sources: 'bbc-news,the-verge',
-        // domains: 'bbc.co.uk,techcrunch.com',
+        // category: 'general',
         language: 'en',
+        // country: 'ca',
+      // newsapi.v2
+      // .everything({
+      //   // q: this.state.name,
+      //   q:this.state.mppLockup,
+        sources: 'google-news-ca',
         sortBy: 'relevancy',
-        page: 2
+        page: 1
       })
       .then(response => {
         response.totalResults === 0 ? console.log('no res') : console.log('this is the news ',response);
