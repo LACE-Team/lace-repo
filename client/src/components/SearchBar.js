@@ -7,7 +7,8 @@ class SearchBar extends Component {
 
     state = {
         value: '',
-        mppLookUp: ''
+        mppLookUp: '',
+        loading: false
     }
 
     handleChange(event) {
@@ -27,10 +28,9 @@ class SearchBar extends Component {
     handleKeyPress(event) {
         if (event.key === 'Enter') {
             event.preventDefault();
-            console.log('enter key pressed')
             axios.post(`/api/mppName/${this.state.value}`)
             .then(res => {
-                console.log(res.data)
+                //console.log(res.data)                
                 window.location ='/mpp/'+ this.state.value;
             })
         }

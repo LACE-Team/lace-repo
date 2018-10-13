@@ -9,6 +9,7 @@ import NewsFeed from './dashComponents/NewsFeed';
 import SpeechFeed from './dashComponents/SpeechFeed';
 import VotingRecords from './dashComponents/VotingRecords';
 import demoList from "./list/mppSocial";
+import AwesomeComponent from './Loader'
 // const NewsAPI = require('newsapi')
 // import NEWS_KEY from '../newsKey';
 // const newsapi = new NewsAPI(NEWS_KEY);
@@ -56,11 +57,10 @@ export default class SelectedMPP extends Component {
     loadVotesByMpp = () => {
       API.getVotesByMpp(this.state.speech)
       .then(res =>
-        console.log('here ' + res.data),
+        //console.log('here ' + res.data),
         this.setState({ votes: res.data}))
       .catch(err => console.log(err));
-    };
-   
+    };   
 
     // let url = window.location.href;
     mppSearch(){
@@ -68,10 +68,10 @@ export default class SelectedMPP extends Component {
         name: name
       })
       .then(res => {
-        console.log('ths is the res from get ', res.data[0].addressEmailId.Telephone),
+        //console.log('ths is the res from get ', res.data[0].addressEmailId.Telephone),
         this.setState({
           name: res.data[0].name,
-          position: res.data[0].careerDetails[0].positions,
+          position: res.data[0].careerDetails[0].positions.join('\n'),
           url: res.data[0].url,
           photo:res.data[0].photo,
           party:res.data[0].party,
@@ -106,21 +106,20 @@ export default class SelectedMPP extends Component {
       .catch(err => {
         console.log(err);
       });
-
     }
-
   componentDidMount(){
     this.mppSearch()
     // this.getNews()
   }
  
   render() {
-    const { name, position, url, photo, currentRiding, party, parliamentNumber, telephone } = this.state;
+    // if (this.state.name.length > 0) {
+    //   setTimeout( () => {
+      const { name, position, url, photo, currentRiding, party, parliamentNumber, telephone } = this.state;
     return (
       <div>
         <MppInfo name={name} position={position} url={url} photo={photo} currentRiding={currentRiding} party={party} parliamentNumber={parliamentNumber} telephone={telephone} />
         <div className="outterDiv center w-80" style={styles.layout}>
-
           <div className="innerDiv-left">
             <SocialFeed />
             <EventFeed />
@@ -133,5 +132,10 @@ export default class SelectedMPP extends Component {
         </div>
       </div>
     );
+  // }, 500)
   }
+  // return (
+  //   < AwesomeComponent/>
+  // )
+  // }    
 }

@@ -30,19 +30,19 @@ const VotingRecords = ({ customStyle }) => (
             <td>July 16, 2018</td>
             <td>First Reading</td>
             <td>Carried</td>
-            <td>''''</td>
+            <td>----</td>
           </tr>
           <tr>
             <td>July 25, 2018</td>
             <td>Second Reading</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Nay</td>
           </tr>
           <tr>
             <td>July 25, 2018</td>
             <td>Third Reading</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Nay</td>
           </tr>
         </tbody>
       </Table>
@@ -64,25 +64,25 @@ const VotingRecords = ({ customStyle }) => (
             <td>July 30, 2018</td>
             <td>First Reading</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Aye</td>
           </tr>
           <tr>
             <td>August 14, 2018</td>
             <td>Time Allocation</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Aye</td>
           </tr>
           <tr>
             <td>August 14, 2018</td>
             <td>Second Reading</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Boo</td>
           </tr>
           <tr>
             <td>August 14, 2018</td>
             <td>Third Reading</td>
             <td>Carried on Division</td>
-            <td>''''</td>
+            <td>Aye</td>
           </tr>
         </tbody>
       </Table>
@@ -104,6 +104,7 @@ const VotingRecords = ({ customStyle }) => (
             <td>August 9, 2018</td>
             <td>First Reading</td>
             <td>Carried on Division</td>
+            <td></td>
           </tr>
         </tbody>
       </Table>;

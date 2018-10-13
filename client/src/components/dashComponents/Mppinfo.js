@@ -1,5 +1,4 @@
 import React from 'react';
-
 const styles = {
   layout: {
     display: 'flex',

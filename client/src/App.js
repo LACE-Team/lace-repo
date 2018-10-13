@@ -12,6 +12,7 @@ import GenDash from './components/GenDash';
 import UserDash from './components/UserDash';
 import fakeData from './fakedata';
 import Logo from './components/Logo';
+import Loader from './components/Loader'
 // import Login from './components/Login';
 // import Signup from './components/Signup';
 // import listMPPS from './components/AllMPPS';
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <BrowserRouter>
+          <BrowserRouter>
         <div>
         <Navbar />
           <Route exact path="/" component={Logo} />

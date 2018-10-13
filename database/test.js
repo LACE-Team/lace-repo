@@ -93,21 +93,3 @@
 //  let date = post.data.substring(findComma +1, findYear+4)
 //     console.log(date)
 //     })
-// const ford = [
-//   {
-//     _id: '5bc02248d143d28d88384f56',
-//     url: 'https://www.ola.org/en/members/all/doug-ford',
-//     name: 'Hon. Doug Ford',
-//     photo: 'https://www.ola.org/sites/default/files/member/profile-photo/doug_ford.jpg',
-//     party: 'Progressive Conservative Party of Ontario',
-//     dateOfService: 'June 7, 2018 (general election) – present',
-//     careerDetails: [
-//       {
-//         positions: ['Minister of Intergovernmental Affairs June 29, 2018 – present', 'Premier June 29, 2018 – present'],
-//       },
-//     ],
-//     currentRiding: 'Etobicoke North',
-//     ridingMap: 'https://www.ola.org/sites/default/files/2018-05/000030_Etobicoke%20North.gif',
-//   },
-// ];
-// console.log(ford[0].careerDetails[0].positions.join('\n'));

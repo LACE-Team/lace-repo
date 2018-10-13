@@ -39,6 +39,7 @@ class Landing extends Component {
         FacebookClass: 'notShown',
         value: '',
         recentBill: [],
+       
         // speech: []       
 
     };

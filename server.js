@@ -78,7 +78,6 @@ app.use('/api/mppName/:name', (req, res) => {
     .populate('addressEmailId')
     .then(dbModel => {
       res.json(dbModel);
-      console.log(dbModel);
     })
     .catch(err => {
       console.error(err);
