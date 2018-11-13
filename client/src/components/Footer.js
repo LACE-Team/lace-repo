@@ -2,8 +2,8 @@ import React from 'react';
 
 const footerStyle = {
   textAlign: 'center',
-  position: 'sticky',
-  bottom: '0',
+  // position: 'absolute',
+  // bottom: '0',
   width: '100%',
   backgroundColor: '#064373',
   height: '40px',
@@ -12,7 +12,6 @@ const footerStyle = {
   justifyContent: 'center',
   paddingBottom: '10px',
   paddingTop: '10px',
-  color: 'white'
   // borderTopStyle: 'solid',
   // borderTopColor: 'crimson'
 };

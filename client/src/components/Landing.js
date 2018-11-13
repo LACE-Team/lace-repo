@@ -4,10 +4,10 @@ import SearchBar from './SearchBar';
 import Footer from './Footer';
 import TwitterFeed from './TwitterFeed';
 import FacebookFeed from './FacebookFeed';
-import './styling/Landing.css';
+import './Landing.css';
 import BillsFeed from './dashComponents/BillsFeed';
 import API from '../utils/API';
-import { Animated } from 'react-animated-css';
+import {Animated} from "react-animated-css";
 
 window.twttr = (function(d, s, id) {
   var js,
@@ -27,36 +27,36 @@ window.twttr = (function(d, s, id) {
 })(document, 'script', 'twitter-wjs');
 
 const style = {
-  panelLayout: {
+    panelLayout: {
     width: '50%',
-    border: 'solid gray 2px',
+    // border: 'solid gray 2px'
     textAlign: 'left'
-  },
-  feed: {
-    display: 'flex',
-    justifyContent: 'center',
-    justifyItems: 'center',
-    padding: '0px',
-    width: '50%'
-  },
-  'gtn-group': {
-    width: '100%',
-    backgroundColor: '#064373',
-    borderTopColor: 'crimson',
-    borderTopStyle: 'solid'
-  },
-  socialBtn: {
-    width: '50%'
-  },
-  postalCodeSearch: {
-    width: '100%',
-    display: '-webkit-box',
-    height: '365px',
-    marginBottom: '0px'
-  },
-  partitionL: {
-    display: 'flex'
-  }
+    },
+    feed:{
+      display: 'flex',
+      justifyContent: 'center',
+      justifyItems: 'center',
+      padding: '0px',
+      width: '50%'
+    },
+    "gtn-group":{
+      width: '100%',
+      backgroundColor: '#064373',
+      borderTopColor: 'crimson',
+      borderTopStyle: 'solid'
+    },
+    socialBtn:{
+      width: '50%'
+    },
+    postalCodeSearch:{
+        width: '100%',
+        display: '-webkit-box',
+        height: '365px',
+        marginBottom: '0px'
+    },
+    partitionL:{
+      display:'flex'
+    }
 };
 
 class Landing extends Component {
@@ -96,6 +96,7 @@ class Landing extends Component {
       FacebookClass: 'notShown'
     });
   };
+  // scroll = setInterval(function(){ window.scrollBy(0,1000); }, 2000);
 
   render() {
     if (this.state.isLoading) {
@@ -103,31 +104,33 @@ class Landing extends Component {
     }
 
     return (
-      <Animated
-        animationIn="fadeInRight"
-        animationOut="fadeOutLeft"
-        isVisible={true}
-      >
-        <div className="partitionL" style={style.partitionL}>
-          <div className="feeds" style={style.feed}>
-            <div style={{ width: '100%' }}>
-              <TwitterFeed className={this.state.TwitterClass} />
-              <FacebookFeed className={this.state.FacebookClass} />
-              <div className="btn-group" style={style['gtn-group']}>
-                <button style={style.socialBtn} onClick={this.TwitterButton}>
-                  Twitter
-                </button>
-                <button style={style.socialBtn} onClick={this.FacebookButton}>
-                  Facebook
-                </button>
-              </div>
+      <Animated animationIn="fadeInRight" animationOut="fadeOutLeft" isVisible={true}>
+      <div className='partitionL' style={style.partitionL}>
+      <div
+          className="feeds"
+          style={style.feed}
+        >
+          <div style={{ width: '100%' }}>
+            <TwitterFeed className={this.state.TwitterClass} />
+            <FacebookFeed className={this.state.FacebookClass} />
+            <div
+              className="btn-group"
+              style={style["gtn-group"]}
+            >
+              <button style={style.socialBtn} onClick={this.TwitterButton}>
+                Twitter
+              </button>
+              <button style={style.socialBtn} onClick={this.FacebookButton}>
+                Facebook
+              </button>
             </div>
           </div>
-          <div className="billsToday" style={style.panelLayout}>
-            <h2>Recent Bills</h2>
-            <BillsFeed recentBill={this.state.recentBill} />
-          </div>
         </div>
+        <div className="billsToday" style={style.panelLayout}>
+          <h2>Recent Bills</h2>
+          <BillsFeed recentBill={this.state.recentBill} />
+        </div>
+      </div>
 
         <div
           className="postalCodeSearch"
@@ -148,8 +151,17 @@ class Landing extends Component {
             Click here to search by postal code
           </a>
         </div>
-        {/* <Footer /> */}
-      </Animated>
+        <div
+          className=""
+          style={{
+            width: '100%',
+            display: '-webkit-box',
+            height: '365px',
+            marginBottom: '0px'
+          }}
+        />
+        <Footer />
+        </Animated>
     );
   }
 }

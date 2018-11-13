@@ -1,35 +1,33 @@
 /* eslint-disable */
 import React, { Component } from 'react';
 import axios from 'axios';
-// components
+
 import MppInfo from './dashComponents/Mppinfo';
 import SocialFeed from './dashComponents/SocialFeed';
 import EventFeed from './dashComponents/EventFeed';
 import NewsFeed from './dashComponents/NewsFeed';
 import SpeechFeed from './dashComponents/SpeechFeed';
 import VotingRecords from './dashComponents/VotingRecords';
-import demoList from './list/mppSocial';
-import Loader from './Loader';
-import { Animated } from 'react-animated-css';
-
-import TwitterFeed from './dashComponents/TwitterFeed';
-import FacebookFeed from './dashComponents/FacebookFeed';
-//
-// const NewsAPI = require('newsapi');
+import demoList from "./list/mppSocial";
+const NewsAPI = require('newsapi')
+// import NEWS_KEY from '../newsKey';
+// const newsapi = new NewsAPI(NEWS_KEY);
+import Loader from './Loader'
+import {Animated} from "react-animated-css";
 
 const styles = {
   layout: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'flex-start',
-    padding: ''
+    padding: '',
   },
   size: {
-    height: '400px'
+    height: '400px',
   },
   rightA: {
-    marginRight: '0px'
-  }
+    'marginRight': '0px',
+  },
 };
 
 export default class SelectedMPP extends Component {
@@ -48,8 +46,7 @@ export default class SelectedMPP extends Component {
     parliamentNumber: '',
     telephone: '',
     twitter: '',
-    facebook: '',
-    isLoading: true
+    isLoading: true,
   };
 
   //load on Voting Records page
@@ -57,17 +54,16 @@ export default class SelectedMPP extends Component {
     API.getVotesByMpp(this.state.speech)
       .then(res =>
         //console.log('here ' + res.data),
-        this.setState({ votes: res.data })
-      )
+        this.setState({ votes: res.data }))
       .catch(err => console.log(err));
   };
 
+
   // let url = window.location.href;
   mppSearch() {
-    axios
-      .get(`/api/mppName/${this.state.mppLockup}`, {
-        name: name
-      })
+    axios.get(`/api/mppName/${this.state.mppLockup}`, {
+      name: name
+    })
       .then(res => {
         //console.log('ths is the res from get ', res.data[0].addressEmailId.Telephone),
         this.setState({
@@ -81,88 +77,74 @@ export default class SelectedMPP extends Component {
           ridingMap: res.data[0].ridingMap,
           parliamentNumber: res.data[0].careerDetails[0].parliamentNumber,
           telephone: res.data[0].addressEmailId.Telephone
-        });
+        })
       })
-      .catch(err => console.log(err));
+      .catch(err => console.log(err))
   }
-  //
+
+  getNews(){
+    newsapi.v2.everything({
+      q: this.state.name,
+      // category: 'general',
+      language: 'en',
+      // country: 'ca',
+    // newsapi.v2
+    // .everything({
+    //   // q: this.state.name,
+    //   q:this.state.mppLockup,
+      sources: 'google-news-ca',
+      sortBy: 'relevancy',
+      page: 1
+    })
+    .then(response => {
+      response.totalResults === 0 ? console.log('no res') : console.log('this is the news ',response);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+  }
+
   getTwitter() {
+    // const twitterURL =
     demoList.forEach(tName => {
       if (tName.name === this.state.name) {
-        return this.setState({ twitter: tName.twitter });
+        // console.log('this is the foreach name ',tName.name)
+        // console.log('this is the state name ',this.state.name)
+        return this.setState({ twitter: tName.twitter })
+        // console.log(tName.name);
       }
-    });
+    })
   }
-  //
-  getFacebook() {
-    demoList.forEach(fName => {
-      if (fName.name === this.state.name) {
-        console.log(fName.name);
-        console.log(this.state.name);
-        console.log(fName.facebook);
-        return this.setState({ facebook: fName.facebook });
-      }
-    });
-  }
-  //
+
   componentDidMount() {
     this.mppSearch();
     setTimeout(() => {
       this.getTwitter();
-      this.getFacebook();
-    }, 10000);
+    }, 500);
     setTimeout(() => this.setState({ isLoading: false }), 3000);
+
   }
 
   render() {
     if (this.state.isLoading) {
-      return <Loader />;
+      return <Loader />
     }
-
-    const {
-      name,
-      position,
-      url,
-      photo,
-      currentRiding,
-      party,
-      parliamentNumber,
-      telephone,
-      twitter,
-      facebook,
-      mppLockup
-    } = this.state;
-
+    const { name, position, url, photo, currentRiding, party, parliamentNumber, telephone, twitter, mppLockup } = this.state;
     return (
-      <Animated
-        animationIn="fadeInRight"
-        animationOut="fadeOutLeft"
-        isVisible={true}
-      >
-        <MppInfo
-          name={name}
-          position={position}
-          url={url}
-          photo={photo}
-          currentRiding={currentRiding}
-          party={party}
-          parliamentNumber={parliamentNumber}
-          telephone={telephone}
-        />
+      <Animated animationIn="fadeInRight" animationOut="fadeOutLeft" isVisible={true}>
+        <MppInfo name={name} position={position} url={url} photo={photo} currentRiding={currentRiding} party={party} parliamentNumber={parliamentNumber} telephone={telephone} />
         <div className="outterDiv center w-80" style={styles.layout}>
           <div className="innerDiv-left">
-            {/* <SocialFeed twitter={twitter} facebook={facebook} /> */}
-            <TwitterFeed twitter={twitter} />
-            <FacebookFeed facebook={facebook} />
-            {/* <EventFeed /> */}
-            {/* <NewsFeed customStyle={styles.rightA} /> */}
+            <SocialFeed twitter={twitter} />
+            <EventFeed />
+            <NewsFeed customStyle={styles.rightA} />
           </div>
           <div className="innerDiv-right w-80 ">
             <VotingRecords customStyle={styles.rightA} />
             <SpeechFeed mppLockup={mppLockup} customStyle={styles.rightA} />
           </div>
         </div>
-      </Animated>
+        </Animated>
     );
   }
 }

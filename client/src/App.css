@@ -22,9 +22,6 @@
 .App-intro {
   font-size: large;
 }
-#navBar {
-  display: block;
-}
 
 @keyframes App-logo-spin {
   from {

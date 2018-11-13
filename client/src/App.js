@@ -12,8 +12,7 @@ import GenDash from './components/GenDash';
 import UserDash from './components/UserDash';
 import fakeData from './fakedata';
 import Logo from './components/Logo';
-import Footer from './components/Footer';
-import Loader from './components/Loader';
+import Loader from './components/Loader'
 // import Login from './components/Login';
 // import Signup from './components/Signup';
 // import listMPPS from './components/AllMPPS';
@@ -22,40 +21,44 @@ import Loader from './components/Loader';
 // import SearchBar from './components/SearchBar';
 
 class App extends Component {
-  componentDidMount() {
-    this.props.fetchUser();
-    if (window.location.pathname === '/') {
+
+  componentWillMount() {
+    if(window.location.pathname === '/') {
       require('./logo.css');
     } else {
       require('./App.css');
     }
   }
 
+  componentDidMount() {
+		this.props.fetchUser();
+  }
+
+
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
-          <div>
-            <Navbar id="navBar" />
-            <Route exact path="/" component={Logo} />
-            <Route exact path="/test" component={Landing} />
-            <Route
-              exact
-              path="/user"
-              render={props =>
-                fakeData.map(follow => <UserDash {...props} item={follow} />)
-              }
-            />
-            <Route path="/mpp/:mppName" component={SelectedDash} />
-            <Footer />
-          </div>
-        </BrowserRouter>
+          <BrowserRouter>
+        <div>
+          <Navbar />
+          <Route exact path="/" component={Logo} />
+          <Route exact path="/test" component={Landing} />
+          <Route exact path="/user"
+          render={(props) =>
+            fakeData.map(follow => (
+              <UserDash {...props}
+                item={follow}
+                />)
+              )
+            }
+          />
+          <Route path="/mpp/:mppName" component={SelectedDash} />
+        </div>
+      </BrowserRouter>
       </div>
     );
   }
 }
 
-export default connect(
-  null,
-  actions
-)(App);
+
+export default connect(null, actions)(App);
